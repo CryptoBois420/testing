@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nova Varos Chatbot</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="chat-container">
+		<div class="chat-header">
+			<h2>Nova Varos Chatbot</h2>
+		</div>
+		<div class="chat-history">
+			<ul id="message-list"></ul>
+		</div>
+		<div class="chat-message">
+			<input type="text" id="user-input" placeholder="Type your message...">
+			<button id="send-btn">Send</button>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@openai/api@0.5.1/dist/openai-api.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
